@@ -1,0 +1,39 @@
+# Compiled class files
+*.class
+bin/
+out/
+
+# Data files (generated at runtime)
+data/
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Build files
+*.jar
+manifest.txt
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Keep datasource directory structure but ignore if contains sensitive data
+# Uncomment the following if you want to exclude real student data from Git
+# datasource/*.csv
+# !datasource/README.md
+
+# Keep the sample datasource in version control
+!datasource/students.csv
